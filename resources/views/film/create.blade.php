@@ -23,7 +23,7 @@
                     <div class="control">
                         <input class="form-control" type="number" name="year" value="{{ old('year') }}" min="1950" max="{{ date('Y') }}">
                         </div>
-                    @error('year')
+                    @error('year') 
                         <p class="text-danger">{{ $message }}</p>
                     @enderror
                     
